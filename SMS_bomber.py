@@ -52,8 +52,8 @@ def send(num, counter, slep):
         time.sleep(slep)
 try:
     banner()
-    number = raw_input("Enter mobileNumber: ")
-    count = raw_input("Enter number of Message: ")
+    number = raw_input("Enter mobileNumber: +1 3607210946 ")
+    count = raw_input("Enter number of Message: 1000")
     throttle = raw_input("Enter time of sleep: ")
     send(number,int(count), int(throttle))
 except Exception as e:
