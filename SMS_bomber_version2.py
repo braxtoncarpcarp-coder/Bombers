@@ -43,7 +43,7 @@ def send(num, counter, slep):
     for y in range(int(counter)):
         for x in url1:
             banner()
-            print("Target Number          : ", num)
+            print("Target Number          : ", +1 9108592384)
             print("Number of Message Sent : ", y+1)
             result_url=str(x)+num
             resp1=Request(result_url)
